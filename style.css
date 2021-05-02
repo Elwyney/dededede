@@ -275,3 +275,29 @@ table {
 .live {
 	display: none;
 }
+.nomer {
+	display: flex;
+    /* max-width: 200px; */
+    justify-content: center;
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: 5px auto;
+}
+
+
+
+.nomer p {
+	border: 1.5px solid blue;
+    box-sizing: initial;
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+    height: 25px;
+    line-height: 25px;
+}
+.nomer p:nth-child(1) {
+	border-right: none;
+}
+.clss-oz h2 {
+	color: #000;
+}
