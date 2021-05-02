@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./style.css">
+      <title>Document</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="container">
+            <header>
+              <a href="#"><img src="./logoo.jpg" alt="" class="lol"></a> 
+            </header>
+            <main class="mainmi">
+               <h1>Химчистка мягкой мебели <span>в Уфе</span></h1>
+               <p>Химчистка мягкой мебели в Уфе компаниия "Химчистка от Даврона" - это всегда
+                  гарантия отличного результата.<br>Удаление стойких загрязнений от чая,кофе,вина,животных с помощью профессиональных средств и оборудования.
+               </p>
+               <form action="" class="btn">
+                  <input class="btn-a" type="button" name="" id="hi" value="Связаться">
+                  <input class="btn-b" type="button" name="" id="old" value="Цены">
+               </form>
+            </main>
+            <footer>
+               <div class="cl">
+                  <p>г.Уфа 2021</p>
+               </div>
+            </footer>
+            <!--Другое-->
+            <div class="clss">
+               <h1>Цены</h1>
+               <table>
+                  <tr>
+                     <td>Химчистка дивана (ткань)</td>
+                     <td>600р./место</td>
+                  </tr>
+                  <tr>
+                     <td>Химчистка диван (кожа)</td>
+                     <td>650р./место</td>
+                  </tr>
+                  <tr>
+                     <td>Химчистка кресло (ткань)</td>
+                     <td>650р./шт</td>
+                  </tr>
+                  <tr>
+                     <td>Химчистка кресло (кожа)</td>
+                     <td>700р./шт</td>
+                  </tr>
+                  <tr>
+                     <td>Химчистка пуфика (кожа)</td>
+                     <td>350р./шт</td>
+                  </tr>
+                  <tr>
+                     <td>Химчистка стула (кожа)</td>
+                     <td>250р./шт</td>
+                  </tr>
+               </table>
+               <p>При расчете стоимости и длительности чистки учитывается кол-во мест.Местом
+                  считается квадрат посадочного места 70х70см.В место входит спинка(передняя
+                  часть и кодлокотники (внутренняя и внешняя части).В разложенном виде
+                  местом считается квадрат 140x140см
+               </p>
+               <img src="./close.png" alt="" id="close">
+            </div>
+            <!--Другое-->
+            <!--Наша фома-->
+            <div class="clss-oz">
+               <h2>Наши контакты</h2>
+               <table class="jio">
+                  <tr>
+                     <td>Телефон</td>    
+                     <td>89869641024</td>
+                  </tr>
+                  <tr>
+                     <td>Доп.Телефон</td>    
+                     <td>89273017810</td>
+                  </tr>
+                  <tr>
+                    <td>Email</td>
+                    <td>ritasharafieva1988@mail.ru</td>
+                  </tr>
+                  
+               </table>
+               <img src="./close.png" alt="" id="closetwo">
+            </div>
+            <!--Наша форма-->
+         </div>
+      </div>
+   </body>
+<script>
+    
+      let hi = document.getElementById('hi');
+      let oldd = document.getElementById('old');
+      let onclickk = document.querySelector('.clss');
+      let oz = document.querySelector('.clss-oz');
+      let closse = document.getElementById('close');
+      let clos = document.getElementById('closetwo');
+      let main = document.querySelector('main');
+   
+   
+      hi.addEventListener('click', function() {
+      	oz.style.display = "flex";
+      	main.style.filter = "blur(5px)";
+		
+      });
+      closse.addEventListener('click', function() {
+      	onclickk.style.display = "none";
+      	main.style.filter = "none";
+      });
+      clos.addEventListener('click', function() {
+      	oz.style.display = "none";
+      	main.style.filter = "none";
+      });
+      oldd.addEventListener('click', function() {
+      	onclickk.style.display = "flex";
+      	main.style.filter = "blur(5px)";
+      });
+	  
+   
+	
+	  
+	  
+     
+	  
+   </script>
+</html>
